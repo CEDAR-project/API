@@ -1,2 +1,0 @@
-prefix qb: <http://purl.org/linked-data/cube#>
-select * from <urn:graph:cedar:harmonised_data> WHERE {?s a qb:Observation.} offset 12345 limit 1
