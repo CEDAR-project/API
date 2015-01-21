@@ -1,0 +1,13 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns1:	<http://lod.cedar-project.nl:8888/cedar/resource/> .
+@prefix ns2:	<http://purl.org/linked-data/cube#> .
+@prefix ns3:	<http://www.w3.org/ns/prov#> .
+@prefix ns4:	<http://bit.ly/cedar-tablink#> .
+ns1:BRT_1930_07_S3_S0_S651	rdf:type	ns2:Observation .
+ns1:BRT_1930_07_S3_S0_S651	rdf:type	ns3:Entity ;
+	ns2:dataSet	ns1:BRT_1930_07_S3_S0 .
+ns1:BRT_1930_07_S3_S0_S651	ns4:dimension	ns1:BRT_1930_07_S3_S0_S4 ;
+	ns4:value	"15.0" ;
+	ns1:BRT_1930_07_S3_S0_A3	"XX. HANDEL." ;
+	ns1:BRT_1930_07_S3_S0_B3	"15. Optische instrumenten (brillen, microscopen, barometers, kijkers)" ;
+	ns1:BRT_1930_07_S3_S0_C3	"Totaal der groep" .

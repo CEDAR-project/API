@@ -1,0 +1,52 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0-mapping-activity>
+    a <http://www.w3.org/ns/prov#Activity> ;
+    <http://www.w3.org/ns/prov#endedAtTime> "2014-09-24T13:39:37+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://www.w3.org/ns/prov#startedAtTime> "2014-09-24T13:39:36+02:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://www.w3.org/ns/prov#wasAssociatedWith> <https://github.com/CEDAR-project/Integrator> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_C651-mapping>
+    a <http://www.w3.org/ns/openannotation/core/Annotation> ;
+    <http://www.w3.org/ns/openannotation/core/hasBody> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_C651-mapping-body> ;
+    <http://www.w3.org/ns/openannotation/core/hasTarget> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_C651> ;
+    <http://www.w3.org/ns/openannotation/core/serializedAt> "2014-09-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://www.w3.org/ns/openannotation/core/serializedBy> <https://github.com/CEDAR-project/Integrator> ;
+    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0-mapping-activity> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S3-mapping>
+    a <http://www.w3.org/ns/openannotation/core/Annotation> ;
+    <http://www.w3.org/ns/openannotation/core/hasBody> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S3-mapping-body> ;
+    <http://www.w3.org/ns/openannotation/core/hasTarget> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S3> ;
+    <http://www.w3.org/ns/openannotation/core/serializedAt> "2014-09-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://www.w3.org/ns/openannotation/core/serializedBy> <https://github.com/CEDAR-project/Integrator> ;
+    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0-mapping-activity> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S4-mapping>
+    a <http://www.w3.org/ns/openannotation/core/Annotation> ;
+    <http://www.w3.org/ns/openannotation/core/hasBody> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S4-mapping-body> ;
+    <http://www.w3.org/ns/openannotation/core/hasTarget> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S4> ;
+    <http://www.w3.org/ns/openannotation/core/serializedAt> "2014-09-24"^^<http://www.w3.org/2001/XMLSchema#date> ;
+    <http://www.w3.org/ns/openannotation/core/serializedBy> <https://github.com/CEDAR-project/Integrator> ;
+    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0-mapping-activity> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S651>
+    <http://bit.ly/cedar-tablink#dimension> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_A651>, <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_B651>, <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_C651>, <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S3>, <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S4> ;
+    <http://bit.ly/cedar-tablink#sheet> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0> ;
+    <http://bit.ly/cedar-tablink#value> "15.0" ;
+    a <http://bit.ly/cedar-tablink#DataCell> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "S651" .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S651-activity>
+    a <http://www.w3.org/ns/prov#Activity> ;
+    <http://www.w3.org/ns/prov#used> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_C651-mapping>, <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S3-mapping>, <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S4-mapping> .
+
+<http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S651-h>
+    <http://lod.cedar-project.nl:8888/cedar/resource/belief> <http://cedar.example.org/ns#belief-90> ;
+    <http://lod.cedar-project.nl:8888/cedar/resource/ignore> "1" ;
+    <http://lod.cedar-project.nl:8888/cedar/resource/population> 15 ;
+    <http://purl.org/linked-data/sdmx/2009/dimension#sex> <http://purl.org/linked-data/sdmx/2009/code#sex-M> ;
+    a <http://purl.org/linked-data/cube#Observation> ;
+    <http://www.w3.org/ns/prov#wasDerivedFrom> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S651> ;
+    <http://www.w3.org/ns/prov#wasGeneratedBy> <http://lod.cedar-project.nl:8888/cedar/resource/BRT_1930_07_S3_S0_S651-activity> .
+

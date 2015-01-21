@@ -1,0 +1,1 @@
+CONSTRUCT {<__resource__> ?p ?o.}  WHERE {<__resource__> ?p ?o.}
